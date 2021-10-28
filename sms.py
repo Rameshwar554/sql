@@ -19,7 +19,7 @@ sms.secret_key = 'otp'
 
 
 # app.config[url] = value
-sms.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Rohit#1234@localhost:3306/student'
+sms.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://Root:Rohit#1234@localhost/student'
 # sms.config['SQLALCHEMY_DATABASE_URI'] = 'oracle://system:system@127.0.0.1:1521/xe'
 db = SQLAlchemy(sms)
 
